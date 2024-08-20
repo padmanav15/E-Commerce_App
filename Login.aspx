@@ -24,9 +24,8 @@
             </div>
 
             <asp:Button ID="Button1" class="btn btn-success" Style="width: 100%" runat="server" Text="Login" /><br />
-            <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" style="background: none; color: green; border: none; position: relative; top: 10px; left: 90px; text-decoration: underline;">Create New Account</a>
-        </div>
-
+             <a href="#" data-bs-toggle="modal"  data-bs-target="#exampleModal" class="btn btn-success" style="width:100%;background:none;color:green;border:none;text-decoration:underline">Create New Account</a>
+            </div>
 
         <!-- Modal -->
         <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
