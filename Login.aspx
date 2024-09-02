@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Login.aspx.cs" Inherits="ECommerce_App.Login" %>
+<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Login.aspx.cs" Inherits="ECommerce_App.Login" %>
 
 <!DOCTYPE html>
 
@@ -22,7 +22,7 @@
             </div>
 
             <asp:Button ID="Button1" class="btn btn-success" Style="width: 100%" runat="server" Text="Login" OnClick="Button1_Click" /><br />
-            <a href="#" data-bs-toggle="modal"  data-bs-target="#exampleModal" class="btn btn-success" style="width:100%;background:none;color:green;border:none;text-decoration:underline">Create New Account</a>
+            <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-success" style="width: 100%; background: none; color: green; border: none; text-decoration: underline">Create New Account</a>
         </div>
 
 
@@ -48,11 +48,15 @@
                             <label for="exampleInputEmail1" class="form-label">Password</label>
                             <asp:TextBox ID="TextBox5" class="form-control" runat="server" placeholder="Enter Password" TextMode="Password"></asp:TextBox>
                         </div>
-                        <asp:Button ID="Button2" class="btn btn-success" Style="width: 100%" runat="server" Text="Sign Up" OnClick="Button2_Click1" /><br />
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Profile</label>
+                            <asp:FileUpload class="form-control" ID="FileUpload1" runat="server" />
                         </div>
+                        <asp:Button ID="Button2" class="btn btn-success" Style="width: 100%" runat="server" Text="Sign Up" OnClick="Button2_Click1" /><br />
                     </div>
                 </div>
             </div>
+        </div>
     </form>
 </body>
 </html>
