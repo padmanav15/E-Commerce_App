@@ -9,8 +9,6 @@
 
 namespace ECommerce_App
 {
-
-
     public partial class Cart
     {
 
