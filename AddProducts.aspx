@@ -3,8 +3,6 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     Add Product Title
 </asp:Content>
-
-
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <h1 style="text-align:center;color:purple;padding:5px;border:5px solid;font-style:italic">Add Products</h1>
     <div style="width:30%;padding:40px;border:5px solid purple;position:relative;left:35%">
